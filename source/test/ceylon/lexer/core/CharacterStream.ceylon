@@ -69,4 +69,10 @@ shared interface CharacterStreamTest
             message = "Termination character after consume";
         };
     }
+
+    shared default actual void run() {
+        super.run();
+        fullLookahead();
+        partialLookahead();
+    }
 }

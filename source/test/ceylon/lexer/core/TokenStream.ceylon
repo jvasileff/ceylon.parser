@@ -167,4 +167,11 @@ shared interface TokenStreamTest {
             message = "No more tokens expected";
         };
     }
+
+    shared void run() {
+        fullLookahead();
+        partialLookahead();
+        singleSeek();
+        nestedSeeks();
+    }
 }

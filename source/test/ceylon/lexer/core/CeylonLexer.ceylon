@@ -435,4 +435,36 @@ shared class CeylonLexerTest() {
             message = "No more tokens expected";
         };
     }
+
+    shared void run() {
+        simpleStringMid();
+        simpleStringEnd();
+        stringTemplate();
+        simpleCharacterLiteral();
+        characterLiteralWithUnicodeEscape();
+        characterLiteralWithQuote();
+        simpleHexLiteral();
+        simpleBinaryLiteral();
+        simpleDecimalLiteral();
+        decimalLiteralWithMagnitude();
+        decimalLiteralWithGrouping();
+        simpleFloatLiteral();
+        floatLiteralWithMagnitude();
+        floatLiteralWithFractionalMagnitude();
+        floatLiteralWithExponent();
+        shortcutFloatLiteral();
+        floatLiteralWithGrouping();
+        //singleKeywords();
+        //singleNonKeywords();
+        //allKeywords();
+        allSymbols();
+        unknownCharacters();
+        unknownEscapes();
+        openDoubleQuotes();
+        openTripleDoubleQuotes();
+        openDoubleBackticks();
+        openSingleQuote();
+        openSlashStar();
+        backtickInStringTemplate();
+    }
 }

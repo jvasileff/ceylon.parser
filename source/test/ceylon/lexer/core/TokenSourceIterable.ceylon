@@ -58,4 +58,9 @@ shared class TokenSourceIterableTest() {
             ].collect((typeText) => Token(typeText.key, typeText.item));
         };
     }
+
+    shared void run() {
+        //iterator();
+        sequence();
+    }
 }

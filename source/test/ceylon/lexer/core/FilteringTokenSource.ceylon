@@ -58,4 +58,10 @@ shared class FilteringTokenSourceTest() {
         ].collect((typeText) => Token(typeText.key, typeText.item));
         message = "Whitespace filter";
     };
+
+    shared void run() {
+        trueFilter();
+        falseFilter();
+        wsFilter();
+    }
 }

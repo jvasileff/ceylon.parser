@@ -68,4 +68,10 @@ shared interface CharacterSourceTest {
             message = "Termination character";
         };
     }
+
+    shared default void run() {
+        helloWorld();
+        empty();
+        nonBMP();
+    }
 }
