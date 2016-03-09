@@ -20,4 +20,6 @@
                      string))));"
 module ceylon.lexer.core "1.2.2" {
     import ceylon.collection "1.2.2";
+    import ceylon.html "1.2.2";
+    //import ceylon.htmllegacy "1.2.2";
 }
