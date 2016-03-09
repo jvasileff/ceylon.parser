@@ -18,6 +18,6 @@
              CeylonLexer( // does the lexing
                  StringCharacterStream( // yields characters from the string
                      string))));"
-module ceylon.lexer.core "1.2.1" {
-    import ceylon.collection "1.2.1";
+module ceylon.lexer.core "1.2.2" {
+    import ceylon.collection "1.2.2";
 }
